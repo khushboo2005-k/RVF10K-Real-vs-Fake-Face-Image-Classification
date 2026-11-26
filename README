@@ -1,0 +1,46 @@
+# RVF10K – Real vs Fake Face Image Classification
+
+## 📌 Project Overview
+
+This project focuses on detecting whether a face image is **Real or AI-Generated (Fake)** using Deep Learning and Computer Vision techniques.
+
+The project uses the RVF10K dataset and compares four different deep learning models to evaluate their performance in real and fake face image classification.
+
+## 🎯 Objectives
+
+- Classify face images as Real or Fake.
+- Implement and compare four Deep Learning models.
+- Evaluate model performance using different classification metrics.
+- Analyze model predictions through Confusion Matrices.
+- Identify the best-performing model.
+
+## 📊 Dataset Information
+
+**Dataset:** RVF10K – Real vs Fake Face Image Dataset
+
+- Total Images: 10,000
+- Real Images: 5,000
+- Fake Images: 5,000
+- Training Images: 7,000
+- Validation Images: 3,000
+
+**Dataset Source:** [Kaggle – RVF10K Dataset](https://www.kaggle.com/datasets/sachchitkunichetty/rvf10k)
+
+## 🤖 Deep Learning Models
+
+Four models are used in this project:
+
+1. **Custom CNN** – A Convolutional Neural Network developed for image classification.
+2. **ResNet50** – A pretrained residual neural network used for transfer learning.
+3. **EfficientNetB0** – An efficient deep learning architecture for image classification.
+4. **XceptionNet** – A deep learning architecture based on depthwise separable convolutions.
+
+## 📈 Evaluation Metrics
+
+The models are evaluated using:
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Conf
